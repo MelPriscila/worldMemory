@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.registro{
+    max-width: 480px;
+    border: 2px solid gray;
+    margin: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    font-family: 'Orbitron', sans-serif;
+
+}
+.container{
+    display: grid;
+    max-width: 960px;
+    grid-template-columns: repeat(3, auto);
+    gap: 1rem;
+}
+.card div{
+    height: 130px;
+    border-radius: 4px;
+}
+.card{
+    position: relative;
+    cursor: pointer;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+
+.frente{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border: 2px solid gray;
+    background-color: rgb(85, 78, 121);
+
+}
+.atras{
+background-color: rgb(220, 217, 222);
+}
+
+.girar{
+    transform: rotateY(0deg)
+}
+
