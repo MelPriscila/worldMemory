@@ -4,69 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-    <script defer src="app.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>MemoryWorld</title>
 </head>
 <body>
     <div class="registro">
-        <h1>MemoryWordl</h1>
-        <h2>Tiempo: 0</h2>
+        <div id="avatarUser">
+        </div>
+        <form id="form">
+            <input type="text" placeholder="Ingrese un nickname" name="nickname" id="userNickname" value="">
+            <button class="botonAceptar" type="submit">Aceptar</button>
+        </form>
+    </div>
+    <div class="containerBtnJugar">
+        <p id="userIngresado"></p>
+        <a href="./secciones/game.html"></a>
     </div>
 
-<div class="container">
-    <div class="card">
-        <div class="frente"><img src="img/mandala.png" alt=""></div>
-        <div class="atras"></div>
-    </div>
-    <div class="card">
-        <div class="frente"><img src="img/mandala.png" alt=""></div>
-        <div class="atras"></div>
-    </div>
-    <div class="card">
-        <div class="frente"><img src="img/mandala1.png" alt=""></div>
-        <div class="atras"></div>
-    </div>
-    <div class="card">
-        <div class="frente"><img src="img/mandala1.png" alt=""></div>
-        <div class="atras"></div>
-    </div>
-    <div class="card">
-        <div class="frente"><img src="img/mandala2.png" alt=""></div>
-        <div class="atras"></div>
-    </div>
-    <div class="card">
-        <div class="frente"><img src="img/mandala2.png" alt=""></div>
-        <div class="atras"></div>
-    </div>
-    <div class="card">
-        <div class="frente"><img src="img/mandala3.png" alt=""></div>
-        <div class="atras"></div>
-    </div>
-    <div class="card">
-        <div class="frente"><img src="img/mandala3.png" alt=""></div>
-        <div class="atras"></div>
-    </div>
-    <div class="card">
-        <div class="frente"><img src="img/mandala4.png" alt=""></div>
-        <div class="atras"></div>
-    </div>
-    <div class="card">
-        <div class="frente"><img src="img/mandala4.png" alt=""></div>
-        <div class="atras"></div>
-    </div>
-    <div class="card">
-        <div class="frente"><img src="img/mandala5.png" alt=""></div>
-        <div class="atras"></div>
-    </div>
-    <div class="card">
-        <div class="frente"><img src="img/mandala5.png" alt=""></div>
-        <div class="atras"></div>
-    </div>
-</div>
-
+    <script src="js/username.js"></script>
+    <script src="js/game.js"></script>
 </body>
 </html>
